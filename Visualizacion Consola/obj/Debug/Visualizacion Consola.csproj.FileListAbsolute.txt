@@ -1,0 +1,10 @@
+C:\Users\randy\source\repos\Ejercicio-254\Visualizacion Consola\bin\Debug\Visualizacion Consola.exe.config
+C:\Users\randy\source\repos\Ejercicio-254\Visualizacion Consola\bin\Debug\Visualizacion Consola.exe
+C:\Users\randy\source\repos\Ejercicio-254\Visualizacion Consola\bin\Debug\Visualizacion Consola.pdb
+C:\Users\randy\source\repos\Ejercicio-254\Visualizacion Consola\bin\Debug\Bll.dll
+C:\Users\randy\source\repos\Ejercicio-254\Visualizacion Consola\bin\Debug\Bll.pdb
+C:\Users\randy\source\repos\Ejercicio-254\Visualizacion Consola\obj\Debug\Visualizacion Consola.csprojAssemblyReference.cache
+C:\Users\randy\source\repos\Ejercicio-254\Visualizacion Consola\obj\Debug\Visualizacion Consola.csproj.CoreCompileInputs.cache
+C:\Users\randy\source\repos\Ejercicio-254\Visualizacion Consola\obj\Debug\Visualizacion Consola.csproj.CopyComplete
+C:\Users\randy\source\repos\Ejercicio-254\Visualizacion Consola\obj\Debug\Visualizacion Consola.exe
+C:\Users\randy\source\repos\Ejercicio-254\Visualizacion Consola\obj\Debug\Visualizacion Consola.pdb
