@@ -9,18 +9,28 @@ namespace Bll
 {
     public class SalonClases
     {
-        int valor;
-      public  ArrayList PromedioEstudiantes = new ArrayList(10);
-        public double Media{ get; set; }
-
-        public void EntradaNotas(double notas)
+        
+        public ArrayList  PromedioEstudiantes = new ArrayList();
+        public double EntradaNotas(double notas)
         {
+            
             double numeros = notas;
             PromedioEstudiantes.Add(numeros);
 
+            return numeros;
+            //valores[] = PromedioEstudiantes.Add(numeros);
+        }
+        /*public void EntradaNotas2(double notas)
+        {
+            double numeros = notas;
+            for(int a=0; a>5; a++)
+            {
+                valores[a] = PromedioEstudiantes.Add(numeros);
+            }
             
         }
-        
+        */
+
 
 
     }
