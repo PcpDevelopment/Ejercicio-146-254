@@ -9,6 +9,7 @@ namespace Visualizacion_Consola
 {
     public class Program
     {
+        static Montos montos = new Montos();
         static Clientes clientes = new Clientes();
         static Telefonia libreta = new Telefonia();
         static SalonClases salon = new SalonClases();
@@ -19,7 +20,8 @@ namespace Visualizacion_Consola
             //Diccionario();
             //Diccionario();
             //LibreriaContacto();
-            EntradaClientes();
+            //EntradaClientes();
+            MontoDelMes();
         }
         static void PromediarArray()
         {
@@ -144,5 +146,30 @@ namespace Visualizacion_Consola
             }
             Console.WriteLine("No hay mas clientes");
         }
+
+        static void MontoDelMes()
+        {
+            montos.MontosES.Add(new Montos { Monto = 506, Fecha = "25/1/2000" });
+            montos.MontosES.Add(new Montos { Monto = 805, Fecha = "26/1/2000" });
+            montos.MontosES.Add(new Montos { Monto = 200, Fecha = "27/1/2000" });
+            montos.MontosES.Add(new Montos { Monto = 908, Fecha = "28/1/2000" });
+            montos.MontosES.Add(new Montos { Monto = 1512, Fecha = "29/1/2000" });
+            montos.MontosES.Add(new Montos { Monto = 587, Fecha = "30/1/2000" });
+
+            //var desiente = montos.MontosES.OrderBy(x => x.Monto);
+            var Sum = montos.MontosES.Sum(x => x.Monto);
+
+            foreach (var item in montos.MontosES.OrderBy(x => x.Fecha))
+            {
+                Console.WriteLine(item.Fecha+ "--Gastos del Dia:" +item.Monto);
+            }
+            Console.Write("-------------------");
+            Console.WriteLine("Total Mes: " + Sum);
+
+
+        }
+
+
+    
     }
 }
