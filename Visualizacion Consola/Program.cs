@@ -9,7 +9,7 @@ namespace Visualizacion_Consola
 {
     public class Program
     {
-
+        static Clientes clientes = new Clientes();
         static Telefonia libreta = new Telefonia();
         static SalonClases salon = new SalonClases();
         static Diccionario diccionario = new Diccionario();
@@ -18,7 +18,8 @@ namespace Visualizacion_Consola
             //PromediarSalon();
             //Diccionario();
             //Diccionario();
-            LibreriaContacto();
+            //LibreriaContacto();
+            EntradaClientes();
         }
         static void PromediarArray()
         {
@@ -118,12 +119,30 @@ namespace Visualizacion_Consola
 
             foreach (var item in libreta.Telefonias)
             {
-               
-               Console.WriteLine("Nombre: " +item.Nombre+  " Contacto: "+item.Telefono);
+                Console.WriteLine("Contactos Añadidos");
+               Console.WriteLine("Nombre: " +item.Nombre+  " Contacto : " +item.Telefono);
                 
             }
 
 
+        }
+
+        static void EntradaClientes()
+        {
+            clientes.Cliente.Enqueue("Randy");
+            clientes.Cliente.Enqueue("Adonis");
+            clientes.Cliente.Enqueue("Castillo");
+            clientes.Cliente.Enqueue("Juste");
+
+            for(int a=0; a<4; a++ )
+            {
+                Console.WriteLine("Primero en llegar:" + clientes.Cliente.Peek());
+                clientes.Cliente.Dequeue();
+                Console.ReadLine();
+                Console.WriteLine("Siguiente-----------");
+
+            }
+            Console.WriteLine("No hay mas clientes");
         }
     }
 }
