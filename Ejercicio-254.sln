@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bll", "Bll\Bll.csproj", "{A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visualizacion Consola", "Visualizacion Consola\Visualizacion Consola.csproj", "{FC90BC81-1D5D-42C5-8394-871290BBB1F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VISUALIZACION FORM", "VISUALIZACION FORM\VISUALIZACION FORM.csproj", "{CFC79609-EA75-4B91-85F7-1108BEE078C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FC90BC81-1D5D-42C5-8394-871290BBB1F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC90BC81-1D5D-42C5-8394-871290BBB1F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC90BC81-1D5D-42C5-8394-871290BBB1F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFC79609-EA75-4B91-85F7-1108BEE078C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC79609-EA75-4B91-85F7-1108BEE078C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC79609-EA75-4B91-85F7-1108BEE078C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC79609-EA75-4B91-85F7-1108BEE078C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

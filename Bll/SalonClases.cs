@@ -11,6 +11,7 @@ namespace Bll
     {
         
         public ArrayList  PromedioEstudiantes = new ArrayList();
+       public List<double> nota = new List<double>();
         public double EntradaNotas(double notas)
         {
             
@@ -20,16 +21,17 @@ namespace Bll
             return numeros;
             //valores[] = PromedioEstudiantes.Add(numeros);
         }
-        /*public void EntradaNotas2(double notas)
+        public void EntradaNotas2(double notas)
         {
             double numeros = notas;
-            for(int a=0; a>5; a++)
-            {
-                valores[a] = PromedioEstudiantes.Add(numeros);
-            }
+            nota.Add(numeros);
+
+
+            
+            
             
         }
-        */
+        
 
 
 

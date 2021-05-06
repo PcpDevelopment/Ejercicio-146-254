@@ -1,0 +1,13 @@
+C:\Users\randy\source\repos\Ejercicio-254\VISUALIZACION FORM\obj\Debug\VISUALIZACION FORM.csprojAssemblyReference.cache
+C:\Users\randy\source\repos\Ejercicio-254\VISUALIZACION FORM\obj\Debug\VISUALIZACION_FORM.Form1.resources
+C:\Users\randy\source\repos\Ejercicio-254\VISUALIZACION FORM\obj\Debug\VISUALIZACION_FORM.Properties.Resources.resources
+C:\Users\randy\source\repos\Ejercicio-254\VISUALIZACION FORM\obj\Debug\VISUALIZACION FORM.csproj.GenerateResource.cache
+C:\Users\randy\source\repos\Ejercicio-254\VISUALIZACION FORM\obj\Debug\VISUALIZACION FORM.csproj.CoreCompileInputs.cache
+C:\Users\randy\source\repos\Ejercicio-254\VISUALIZACION FORM\bin\Debug\VISUALIZACION FORM.exe.config
+C:\Users\randy\source\repos\Ejercicio-254\VISUALIZACION FORM\bin\Debug\VISUALIZACION FORM.exe
+C:\Users\randy\source\repos\Ejercicio-254\VISUALIZACION FORM\bin\Debug\VISUALIZACION FORM.pdb
+C:\Users\randy\source\repos\Ejercicio-254\VISUALIZACION FORM\bin\Debug\Bll.dll
+C:\Users\randy\source\repos\Ejercicio-254\VISUALIZACION FORM\bin\Debug\Bll.pdb
+C:\Users\randy\source\repos\Ejercicio-254\VISUALIZACION FORM\obj\Debug\VISUALIZACION FORM.csproj.CopyComplete
+C:\Users\randy\source\repos\Ejercicio-254\VISUALIZACION FORM\obj\Debug\VISUALIZACION FORM.exe
+C:\Users\randy\source\repos\Ejercicio-254\VISUALIZACION FORM\obj\Debug\VISUALIZACION FORM.pdb

@@ -13,6 +13,12 @@ namespace Bll
         public string Fecha { get; set; }
         public int Monto { get; set; }
 
+        
+            
+            
+            
+            
+
 
     }
 }

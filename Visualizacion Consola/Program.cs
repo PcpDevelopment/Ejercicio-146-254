@@ -16,12 +16,12 @@ namespace Visualizacion_Consola
         static Diccionario diccionario = new Diccionario();
         static void Main(string[] args)
         {
-            //PromediarSalon();
+            PromediarSalon();
             //Diccionario();
-            //Diccionario();
+           // Diccionario();
             //LibreriaContacto();
             //EntradaClientes();
-            MontoDelMes();
+           // MontoDelMes();
         }
         static void PromediarArray()
         {
@@ -61,7 +61,7 @@ namespace Visualizacion_Consola
         static void PromediarSalon()
         {
             List<double> nota = new List<double>();
-            Console.WriteLine("INGRESE LA CANTIDAD DE CALIFICACIONES");
+            Console.WriteLine("INGRESE TODAS LAS  CALIFICACIONES");
             double Notas = 0.0f;
             double indice = 0.0f;
             double Promedio = 0.0f;
@@ -79,8 +79,8 @@ namespace Visualizacion_Consola
 
             var maximo = nota.Max();
             var minimo = nota.Min();
-            Console.WriteLine("El valor mayor es-------------------"+maximo);
-            Console.WriteLine("El valor menor es-------------------" + minimo);
+            Console.WriteLine("La calificacion mayor es-------------------"+maximo);
+            Console.WriteLine("La Calificacion menor es-------------------" + minimo);
             Console.WriteLine("El Promedio de Calificaciones es------"+Promedio);
 
            // Console.WriteLine("CANTIDAD DE CALIFICACIONES");
@@ -92,7 +92,9 @@ namespace Visualizacion_Consola
         }
         static void Diccionario()
         {
-            Console.WriteLine("Inserte Una palabra");
+
+
+            Console.WriteLine("Inserte Una palabra ya establesidas");
             string ar = Console.ReadLine();
             diccionario.ListaDeElementos(ar);
             //Console.WriteLine(diccionario.Elementos[ar]);
@@ -121,8 +123,8 @@ namespace Visualizacion_Consola
 
             foreach (var item in libreta.Telefonias)
             {
-                Console.WriteLine("Contactos Añadidos");
-               Console.WriteLine("Nombre: " +item.Nombre+  " Contacto : " +item.Telefono);
+                Console.Write("Contactos Añadido: ");
+               Console.WriteLine("Nombre: " +item.Nombre+"." +  " Telefono : " +item.Telefono);
                 
             }
 
@@ -135,8 +137,9 @@ namespace Visualizacion_Consola
             clientes.Cliente.Enqueue("Adonis");
             clientes.Cliente.Enqueue("Castillo");
             clientes.Cliente.Enqueue("Juste");
+            clientes.Cliente.Enqueue("Jaquez");
 
-            for(int a=0; a<4; a++ )
+            for (int a=0; clientes.Cliente.Count>0; a++ )
             {
                 Console.WriteLine("Primero en llegar:" + clientes.Cliente.Peek());
                 clientes.Cliente.Dequeue();
@@ -159,7 +162,7 @@ namespace Visualizacion_Consola
             //var desiente = montos.MontosES.OrderBy(x => x.Monto);
             var Sum = montos.MontosES.Sum(x => x.Monto);
 
-            foreach (var item in montos.MontosES.OrderBy(x => x.Fecha))
+            foreach (var item in montos.MontosES.OrderByDescending(x => x.Fecha))
             {
                 Console.WriteLine(item.Fecha+ "--Gastos del Dia:" +item.Monto);
             }
